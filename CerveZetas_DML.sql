@@ -30,19 +30,19 @@ values ('pablob@gmail.com', 'Pablo', 'Beltrán', 'Holamundo114', 600000004, SYSD
 
 
 
-INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, marca) 
-values ('Cerve', 1, 60, 'Happy Holidays', 'pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Rubia', 20.75, 'Pack_Especial', 001);
+INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, foto, marca) 
+values ('Cerve', 1, 60, 'Happy Holidays', 'pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Rubia', 20.75, 'Pack_Especial', 'foto',  001);
 
-INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, marca) 
-values ('Cerveza', 2, 70, 'Sant Patrick`s', 'pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Malta', 14.23, 'Pack_Eventual', 002);
+INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, foto, marca) 
+values ('Cerveza', 2, 70, 'Sant Patrick`s', 'pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Malta', 14.23, 'Pack_Eventual', 'foto',  002);
 
 /*Cambiar admin_modifica por pabloverdu@admin.es*/
 
-INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, marca) 
-values ('Cervezon', 3, 80, 'Fin de Examenes', 'pabloverdu@admin.es', 'pablob@gmail.com', SYSDATE, SYSDATE, 'Rubia', 5.25, 'Cubos', 003);
+INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, foto, marca) 
+values ('Cervezon', 3, 80, 'Fin de Examenes', 'pabloverdu@admin.es', 'pablob@gmail.com', SYSDATE, SYSDATE, 'Rubia', 5.25, 'Cubos', 'foto',  003);
 
-INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, marca) 
-values ('Cervezita', 4, 200, 'Cerveza dignidad','pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Tostada', 2.5, 'Cervezas',005);
+INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, foto, marca) 
+values ('Cervezita', 4, 200, 'Cerveza dignidad','pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Tostada', 2.5, 'Cervezas', 'foto', 005);
 
 
 
