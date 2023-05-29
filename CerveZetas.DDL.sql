@@ -10,6 +10,7 @@ create table CerveZetas_Marca(
 );
 
 create table CerveZetas_Usuario(
+    nombre varchar2(20),
     email varchar2(20) primary key,
     nombre varchar(30),
     apellidos varchar(30),
