@@ -62,9 +62,9 @@ create table CerveZetas_Direccion(
     Municipio varchar(20),
     CodigoPostal number(5),
     provincia varchar(20),
-    tipoVia varchar2(30) not null,
-    tipoDireccion varchar2(20) not null,
-    nombre varchar2(30) not null,
+    tipoVia varchar2(30),
+    tipoDireccion varchar2(20),
+    nombre varchar2(30),
 
     CHECK (tipoVia in('Calle', 'Avenida', 'Plaza')),
     CHECK (tipoDireccion in('Casa', 'Trabajo', 'Campo', 'Chalet')),
@@ -82,8 +82,8 @@ create table CerveZetas_Pedido_Factura(
     cod_pedido number(10),
     num_factura number(10),
     fecha_factura date,
-    direccion number(3) not null,
-    cliente varchar2(20) not null,
+    direccion number(3),
+    cliente varchar2(20),
     precio_total number(7,2),
     
 
