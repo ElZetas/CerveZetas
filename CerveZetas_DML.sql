@@ -45,10 +45,10 @@ INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin
 values ('Cervezita', 4, 200, 'Me estoy volviendo crazy, si me tomo 1 mas','pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Tostada', 2.5, 'Cervezas', 'https://i.ibb.co/6DHr5ns/beer3.png', 004);
 
 INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, foto, marca) 
-values ('Cervezita', 4, 200, 'La favorita de tu abuela, mmmmmm','pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Tostada', 2.5, 'Cervezas', 'https://i.ibb.co/PtJ9VdS/beer4.png', 005);
+values ('Cervezita', 5, 200, 'La favorita de tu abuela, mmmmmm','pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Tostada', 2.5, 'Cervezas', 'https://i.ibb.co/PtJ9VdS/beer4.png', 005);
 
 INSERT INTO CerveZetas_Producto (nombre, cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, foto, marca) 
-values ('Cervezita', 4, 200, 'Agarramela que me escuece, la lengua','pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Tostada', 2.5, 'Cervezas', 'https://i.ibb.co/KqFgtQV/beer5.png', 006);
+values ('Cervezita', 6, 200, 'Agarramela que me escuece, la lengua','pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Tostada', 2.5, 'Cervezas', 'https://i.ibb.co/KqFgtQV/beer5.png', 006);
 
 
 
