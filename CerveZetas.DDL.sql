@@ -38,9 +38,9 @@ create table CerveZetas_Producto(
     admin_modifica varchar2(20),
     fecha_mod date,
     fecha_creacion date,
-    Categoria varchar2(20) not null,
-    precio number(5,2) not null,
-    TipoProducto varchar2(20) not null,
+    Categoria varchar2(20),
+    precio number(5,2),
+    TipoProducto varchar2(20),
     foto varchar2(200),
     
 
